@@ -6,12 +6,18 @@
   width: 750px;
 }
 
+.postFormTitle {
+  margin-top: 10px;
+}
+
 .form-group {
   margin-top: 30px;
   margin-left: 60px;
 }
 
-#title, #category, #description {
+#title,
+#category,
+#description {
   width: 600px;
 }
 
@@ -28,22 +34,22 @@
 #createPost:hover, #editPost:hover {
   background-color: #C74009;
   border: solid 1px #C74009;
+  background-color: #fa500c;
 }
 
 #cancel {
   margin-left: 20px;
   float: left;
-  color: #FA500C;
-  border: solid 1px #FA500C;
+  color: #fa500c;
+  border: solid 1px #fa500c;
 }
 
 #cancel:hover {
-  color: #C74009;
-  border: solid 1px #C74009;
+  color: #c74009;
+  border: solid 1px #c74009;
 }
 
 #createPost, #cancel, #editPost {
   width: 80px;
   margin-bottom: 20px;
 }
-
