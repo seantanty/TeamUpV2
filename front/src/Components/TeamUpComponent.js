@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/teamupcomponent.css"
+import "../styles/teamupcomponent.css";
 
 const TeamUpComponent = (props) => {
   const { post, userid } = props;
@@ -52,8 +52,8 @@ const TeamUpComponent = (props) => {
     ));
   }
 
-  if (userid === post.userId) {
-    if (post.open || post.groupMember.length === 0) {
+  if (userid && userid === post.userId) {
+    if (post.open || (post.groupMember && post.groupMember.length === 0)) {
       return (
         <div>
           <button

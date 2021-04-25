@@ -11,13 +11,20 @@ import "../styles/editclosebutton.css";
 function IndividualPost(props) {
   const [post, setPost] = useState([]);
   const [comments, setComments] = useState([]);
-  const [displayCommentBox, setdisplayCommentBox] = useState(false);
-  const curUserId = JSON.parse(localStorage.getItem("user")).userid;
-  const curUsername = JSON.parse(localStorage.getItem("user")).username;
+  const [displayCommentBox, setDisplayCommentBox] = useState(false);
+  const [showCommentButton, setShowCommentButton] = useState(true);
+  let curUserId;
+  let curUsername;
+
+  if (localStorage.getItem("user")) {
+    curUserId = JSON.parse(localStorage.getItem("user")).userid;
+    curUsername = JSON.parse(localStorage.getItem("user")).username;
+    setShowCommentButton(!showCommentButton);
+  }
 
   function clickComment() {
     if (curUsername) {
-      setdisplayCommentBox(!displayCommentBox);
+      setDisplayCommentBox(!displayCommentBox);
     }
   }
 
@@ -72,12 +79,17 @@ function IndividualPost(props) {
                 style={{ marginLeft: "0px" }}
               >
                 <div className="interactions">
-                  <LikeButton post={post}></LikeButton>
+                  <LikeButton
+                    userid={curUserId}
+                    username={curUsername}
+                    post={post}
+                  ></LikeButton>
                   <button
                     type="button"
                     className="btn btn-primary"
                     id="comment"
                     onClick={clickComment}
+                    disabled={showCommentButton.toString()}
                   >
                     <i className="fa fa-commenting-o"></i>
                     <span className="ml-1">Comment</span>
