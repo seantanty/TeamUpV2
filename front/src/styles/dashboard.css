@@ -1,0 +1,60 @@
+.containter {
+  margin-top: 20px;
+  position: relative;
+  border: 1px solid #e8e8e8;
+  width: 1000px;
+  background-color: #e8e8e8;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.countsContainer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /*flex-wrap: wrap;*/
+}
+
+.tab-pane {
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    border-radius: 0px 0px 4px 4px;
+    /*padding: 10px;*/
+
+}
+
+.container-fluid {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  /*background-color: #c0c0c0;*/
+}
+
+.card {
+  box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03),
+    0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03),
+    0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05),
+    0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+  transition: all 0.2s;
+  border-width: 0;
+  border-radius: 4px;
+}
+
+
+.card-header {
+  display: flex;
+  align-items: center;
+  border-bottom-width: 1px;
+  border-bottom: 1px solid rgba(26, 54, 126, 0.125);
+  border-radius: 4px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0.625rem;
+  height: 3.5rem;
+}
+

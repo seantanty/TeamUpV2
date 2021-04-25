@@ -1,0 +1,12 @@
+#teamupButton, #createteamButton {
+  color: #ffffff;
+  border: solid 1px #FA500C;
+  background-color: #FA500C;
+}
+
+#teamupButton:hover, #createteamButton:hover {
+  color: #ffffff;
+  border: solid 1px #C74009;
+  background-color: #C74009;
+}
+

@@ -1,0 +1,70 @@
+#container {
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-fluid {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03),
+    0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03),
+    0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05),
+    0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+
+  border-width: 1px solid #e8e8e8;
+  border-radius: 4px;
+  transition: all 0.2s;
+  background-color: #ffffff;
+}
+
+#postsCard {
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  border-bottom-width: 1px;
+  border-radius: 4px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0.625rem;
+  height: 3.5rem;
+  border-bottom: 1px solid rgba(26, 54, 126, 0.125);
+}
+
+#searchBarBox {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+}
+
+#searchInput {
+  border-radius: 4px;
+  border-right: none;
+}
+
+#searchButton {
+  border: solid 1px #FA500C;
+  background-color: #FA500C;
+}
+
+#searchButton:hover {
+  border: solid 1px #C74009;
+  background-color: #C74009;
+}
+
+.Pagination {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-top: auto;
+}

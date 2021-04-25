@@ -1,0 +1,49 @@
+#postContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #e8e8e8;
+  background-color: #e8e8e8;
+  width: 750px;
+}
+
+.form-group {
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+#title, #category, #description {
+  width: 600px;
+}
+
+.require {
+  margin-left: 175px;
+}
+
+#createPost {
+  float: left;
+  background-color: #FA500C;
+  border: none;
+}
+
+#createPost:hover {
+  background-color: #C74009;
+  border: none;
+}
+
+#cancel {
+  margin-left: 20px;
+  float: left;
+  color: #FA500C;
+  border: solid 1px #FA500C;
+}
+
+#cancel:hover {
+  color: #C74009;
+  border: solid 1px #C74009;
+}
+
+#createPost, #cancel {
+  width: 100px;
+  margin-bottom: 20px;
+}
+

@@ -1,0 +1,16 @@
+.page-item {
+  
+    color: #FA500C;
+  
+}
+
+.page-link {
+    background-color: #FA500C;
+    border-radius: 4px;
+    &:hover {
+        background-color: #C74009;
+    }
+    &:active {
+        background-color: #FA500C;
+    }
+}

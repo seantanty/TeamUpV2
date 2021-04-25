@@ -1,0 +1,24 @@
+.Count {
+  flex: 1;
+  margin: 0px 10px 10px 10px;
+  padding: 15px 7.5px;
+
+  display: flex;
+  align-items: center;
+
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  background-color: #ffffff;
+  max-width: 145px;
+}
+
+.count {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.label {
+  font-size: 15px;
+  margin-left: 20px;
+  color: #808080;
+}

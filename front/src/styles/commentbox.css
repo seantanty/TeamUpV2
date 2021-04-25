@@ -1,0 +1,16 @@
+.CommentBox {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#postComment, #editComment {
+  color: #ffffff;
+  border: solid 1px #FA500C;
+  background-color: #FA500C;
+}
+
+#postComment:hover, #editComment:hover {
+  color: #ffffff;
+  border: solid 1px #C74009;
+  background-color: #C74009;
+}

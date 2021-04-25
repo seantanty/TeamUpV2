@@ -1,0 +1,34 @@
+#card_login, #card_register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+#btn_signin, #btn_signup {
+  width: 300px;
+  border: solid #FA500C;
+  border-radius: 4px;
+  background-color: #FA500C;
+}
+
+#btn_signin:hover, #btn_signup:hover {
+  border: solid #C74009;
+  background-color: #C74009;
+}
+
+#username,
+#password {
+  width: 300px;
+  border: none;
+  border: solid 1px #ccc;
+  border-radius: 4px;
+}
+
+
+
+
+
