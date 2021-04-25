@@ -16,18 +16,18 @@
 }
 
 .require {
-  margin-left: 175px;
+  margin-left: 60px;
 }
 
-#createPost {
+#createPost, #editPost {
   float: left;
   background-color: #FA500C;
-  border: none;
+  border: solid 1px #FA500C;
 }
 
-#createPost:hover {
+#createPost:hover, #editPost:hover {
   background-color: #C74009;
-  border: none;
+  border: solid 1px #C74009;
 }
 
 #cancel {
@@ -42,8 +42,8 @@
   border: solid 1px #C74009;
 }
 
-#createPost, #cancel {
-  width: 100px;
+#createPost, #cancel, #editPost {
+  width: 80px;
   margin-bottom: 20px;
 }
 
