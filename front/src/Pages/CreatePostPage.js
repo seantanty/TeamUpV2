@@ -41,12 +41,12 @@ const CreatePostPage = () => {
 
   return (
     <div className="container" id="postContainer">
-      <h3>Create Post</h3>
       <div className="row">
+        <h3 className="center-block text-center postFormTitle">Create Post</h3>
         <div className="col-md-8 col-md-offset-2">
           <form action="">
             <div className="form-group">
-              <label for="title">Title *</label>
+              <label htmlFor="title">Title *</label>
 
               <input
                 type="text"
@@ -57,6 +57,7 @@ const CreatePostPage = () => {
               />
             </div>
             <div className="form-group">
+              <label htmlFor="category">Category *</label>
               <select
                 className="form-select form-control"
                 id="category"

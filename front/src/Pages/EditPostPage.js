@@ -59,8 +59,8 @@ const EditPostPage = () => {
   return (
     <div className="container" id="postContainer">
       <div className="row">
+        <h3 className="center-block text-center postFormTitle">Edit Post</h3>
         <div className="col-md-8 col-md-offset-2">
-          <h4>Edit Post</h4>
           <form action="">
             <div className="form-group">
               <label for="title">Title</label>
