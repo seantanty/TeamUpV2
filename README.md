@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://enigmatic-cliffs-18531.herokuapp.com/">
-    <img src="https://i.imgur.com/dZUT2A5.png" alt="TeamUp logo" width="200" height="200">
+  <a href="https://teamup-up.herokuapp.com/">
+    <img src="https://i.imgur.com/c9ocuEj.png" alt="TeamUp logo" width="150" height="140">
   </a>
 </p>
 
@@ -20,14 +20,14 @@ A teamup forum app serving students to conveniently  form teams to study, play a
 
 ### Project Objective
 ***
-This project is served as the 3nd project of Web Development course. 
+This project is served as the 4th project of Web Development course. 
 It aims to create a react application with Node + Express + React + Mongo + HTML5.
 And the app is deployed by Heroku.
 
 * The app applies user authentication.
 * User can create a post to find team members.
-* User can search/filter other’s posts and express interest/leave comments to join a team.
-* Post owner can check the posts he/she created, select team members and form a team.
+* User can search/filter other’s posts with/without login and express interest/leave comments to join a team after logging in.
+* Post owner can edit, delete, and check the status of the posts he/she created, select team members and form a team.
 * User can access to dashboard to check post status.
 
 ### Screenshots
