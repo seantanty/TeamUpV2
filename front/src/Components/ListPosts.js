@@ -31,7 +31,7 @@ const ListPosts = (props) => {
                   <p className="forum-item-title">{p.title}</p>
                 </Link>
               </div>
-              <div className="d-none d-md-block col-6">
+              <div className="d-none d-md-block col-4">
                 <div className="row no-gutters align-items-center">
                   <div className="col-4">{replies}</div>
                   <div className="col-8">{dateToShow}</div>
