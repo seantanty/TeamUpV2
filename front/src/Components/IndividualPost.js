@@ -19,7 +19,6 @@ function IndividualPost(props) {
   if (localStorage.getItem("user")) {
     curUserId = JSON.parse(localStorage.getItem("user")).userid;
     curUsername = JSON.parse(localStorage.getItem("user")).username;
-    setShowCommentButton(!showCommentButton);
   }
 
   function clickComment() {
@@ -46,12 +45,16 @@ function IndividualPost(props) {
         const res = await resRaw.json();
         setPost(res);
         setComments(res.comments);
+        if (localStorage.getItem("user")) {
+          setShowCommentButton(false);
+          console.log(showCommentButton);
+        }
       } catch (error) {
         console.error(error);
       }
     };
     getPostById();
-  }, []);
+  }, [showCommentButton]);
 
   return (
     <div>
@@ -89,7 +92,7 @@ function IndividualPost(props) {
                     className="btn btn-primary"
                     id="comment"
                     onClick={clickComment}
-                    disabled={showCommentButton.toString()}
+                    disabled={showCommentButton}
                   >
                     <i className="fa fa-commenting-o"></i>
                     <span className="ml-1">Comment</span>

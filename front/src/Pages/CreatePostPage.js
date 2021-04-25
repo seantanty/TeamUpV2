@@ -17,6 +17,8 @@ const CreatePostPage = () => {
     event.preventDefault();
     if (title === "" || cat === "") {
       alert("Post must have a title and category.");
+    } else if (title.length > 50) {
+      alert("Your title is too long, please keep it short and concise.");
     } else {
       const resRaw = await fetch("/createPost", {
         method: "POST",
