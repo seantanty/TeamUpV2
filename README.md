@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://teamup-up.herokuapp.com/">
-    <img src="https://i.imgur.com/c9ocuEj.png" alt="TeamUp logo" width="150" height="160">
+    <img src="https://i.imgur.com/c9ocuEj.png" alt="TeamUp logo" width="150" height="140">
   </a>
 </p>
 
