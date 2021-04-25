@@ -76,6 +76,7 @@ const EditAndCloseButton = (props) => {
                   <button
                     type="button"
                     className="btn btn-secondary"
+                    id="closeCancel"
                     data-bs-dismiss="modal"
                   >
                     Cancel
