@@ -95,19 +95,7 @@ const EditAndCloseButton = (props) => {
         </div>
       );
     } else {
-      return (
-        <div>
-          <Link
-            to={{
-              pathname: `/editPost/${post._id}`,
-            }}
-          >
-            <button type="button" className="btn btn-outline-warning">
-              Edit
-            </button>
-          </Link>
-        </div>
-      );
+      return <div></div>;
     }
   } else {
     return <div></div>;

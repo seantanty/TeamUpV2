@@ -3,7 +3,9 @@ const { MongoClient, ObjectId } = require("mongodb");
 function MyDB() {
   const myDB = {};
 
-  const url = process.env.MONGODB_URI;
+  const url =
+    "mongodb+srv://seantan:TanWeb5610Ge@cluster0.u90qt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  // process.env.MONGODB_URI;
 
   const DB_NAME = "5610Project3";
 
