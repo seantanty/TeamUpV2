@@ -18,7 +18,7 @@ const ListComments = (props) => {
           res.push(
             <div className="comment-item active" key={"Comments" + i}>
               <div className="comment mt-4 text-justify float-left">
-                <div className="comment card p-3 mt-2">
+                <div className="comment card p-3 mt-2 border border-danger">
                   <h6>{c.username}</h6> <span>{dateToShow}</span> <br />
                   <p>{c.content}</p>
                 </div>
