@@ -12,7 +12,7 @@ const LikeButton = (props) => {
     if (post.interested) {
       for (let i = 0; i < post.interested.length; i++) {
         if (post.interested[i].userId === userid) {
-          clickLike();
+          setLike(true);
           break;
         }
       }
