@@ -63,10 +63,12 @@ function HomePage() {
               id="searchInput"
               onChange={(evt) => {
                 setQuery(evt.target.value);
+                setPage(0);
               }}
               onKeyPress={(evt) => {
                 if (evt.code === "Enter") {
                   setReload(reload + 1);
+                  setPage(0);
                 }
               }}
               value={query}
@@ -78,6 +80,7 @@ function HomePage() {
                 type="submit"
                 onClick={() => {
                   setReload(reload + 1);
+                  setPage(0);
                 }}
               >
                 <span className="fa fa-search"></span>
