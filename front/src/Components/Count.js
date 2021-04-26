@@ -6,7 +6,7 @@ const Count = (props) => {
   const { count, label } = props;
 
   return (
-    <div className="Count">
+    <div className="allCount">
       <div className="count">{count}</div>
       <div className="label">{label}</div>
     </div>

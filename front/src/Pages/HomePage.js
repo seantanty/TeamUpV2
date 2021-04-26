@@ -37,12 +37,13 @@ function HomePage() {
   }, [page, reload, query, cat]);
 
   return (
-    <div className="container" id="container">
+    <div className="container" id="container" role="main">
       <div className="row">
         <div className="col-md-8" id="searchBarBox">
           <div className="input-group">
             <div className="input-group-btn search-panel">
               <select
+                aria-label="Category"
                 className="form-select form-control"
                 onChange={(evt) => {
                   setCat(evt.target.value);
@@ -76,6 +77,7 @@ function HomePage() {
             <span className="input-group-btn">
               <button
                 id="searchButton"
+                aria-label="search"
                 className="btn btn-success"
                 type="submit"
                 onClick={() => {
@@ -96,12 +98,16 @@ function HomePage() {
             <div className="card mb-3" id="postsCard">
               <div className="card-header pr-0 pl-0">
                 <div className="row no-gutters align-items-center w-100">
-                  <div className="col-md-2 font-weight-bold pl-3">Category</div>
-                  <div className="col font-weight-bold pl-3">Titles</div>
+                  <div className="col-md-2 font-weight-bold pl-3 postsColTitle">
+                    Category
+                  </div>
+                  <div className="col font-weight-bold pl-3 postsColTitle">
+                    Titles
+                  </div>
                   <div className="d-none d-md-block col-4 text-muted">
                     <div className="row no-gutters align-items-center">
-                      <div className="col-4">Replies</div>
-                      <div className="col-8">Last update</div>
+                      <div className="col-4 postsColTitle">Replies</div>
+                      <div className="col-8 postsColTitle">Last update</div>
                     </div>
                   </div>
                 </div>

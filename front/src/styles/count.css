@@ -1,4 +1,4 @@
-.Count {
+.allCount {
   flex: 1;
   margin: 0px 10px 10px 10px;
   padding: 15px 7.5px;
@@ -20,5 +20,5 @@
 .label {
   font-size: 15px;
   margin-left: 20px;
-  color: #808080;
+  color: black;
 }

@@ -42,7 +42,7 @@ const CreatePostPage = () => {
   };
 
   return (
-    <div className="container" id="postContainer">
+    <div className="container" id="postContainer" role="main">
       <div className="row">
         <h3 className="center-block text-center postFormTitle">Create Post</h3>
         <div className="col-md-8 col-md-offset-2">
@@ -84,6 +84,7 @@ const CreatePostPage = () => {
                 className="form-control"
                 id="description"
                 name="description"
+                aria-label="description"
                 onChange={(e) => setContent(e.target.value)}
               ></textarea>
             </div>
