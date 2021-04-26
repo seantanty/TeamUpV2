@@ -3,8 +3,7 @@
 }
 
 a.nav-link:hover {
-  /*color: #808080;*/
-  color: #fa500c;
+  color: #000000;
 }
 
 #navbarHome, #navbarPost, #navbarDashboard {
