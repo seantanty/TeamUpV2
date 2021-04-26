@@ -4,20 +4,26 @@
 }
 
 a.nav-link:hover {
-    color: #C74009;
+  color: #c74009;
 }
 
 .navbar-toggler {
   background-color: #ffffff;
-  border:solid #C74009;
+  border: solid #c74009;
 }
 
 .nav-item {
-  border-color: #808080;
-  background-color: #ffffff;
-  color: #808080;
+  border-color: #fa500c;
+  background-color: #fa500c;
 }
 
-.navbar, .navbar-collapse {
-  color: #C74009;
+.navbar,
+.navbar-collapse {
+  color: #c74009;
+}
+
+#navbarHome,
+#navbarPost,
+#navbarDashboard {
+  color: white;
 }

@@ -1,4 +1,5 @@
-#card_login, #card_register {
+#card_login,
+#card_register {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,16 +9,18 @@
   width: 500px;
 }
 
-#btn_signin, #btn_signup {
+#btn_signin,
+#btn_signup {
   width: 300px;
-  border: solid #FA500C;
+  border: solid #fa500c;
   border-radius: 4px;
-  background-color: #FA500C;
+  background-color: #fa500c;
 }
 
-#btn_signin:hover, #btn_signup:hover {
-  border: solid #C74009;
-  background-color: #C74009;
+#btn_signin:hover,
+#btn_signup:hover {
+  border: solid #c74009;
+  background-color: #c74009;
 }
 
 #username,
@@ -27,8 +30,3 @@
   border: solid 1px #ccc;
   border-radius: 4px;
 }
-
-
-
-
-

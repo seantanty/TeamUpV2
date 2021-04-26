@@ -34,7 +34,7 @@ const SignInOut = () => {
   const buttonStyle = {
     background: "none",
     border: 0,
-    color: "#C74009",
+    color: "white",
   };
 
   return (
