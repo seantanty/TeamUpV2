@@ -6,7 +6,6 @@ import TeamUpComponent from "../Components/TeamUpComponent.js";
 import TeamList from "../Components/TeamList.js";
 import EditAndCloseButton from "../Components/EditAndCloseButton.js";
 import "../styles/individualpost.css";
-import "../styles/editclosebutton.css";
 
 function IndividualPost(props) {
   const [post, setPost] = useState([]);

@@ -1,19 +1,25 @@
 .commentEdit {
   margin-left: 10px;
-  color: #fa500c;
-  border: solid 1px #fa500c;
+  color: #d1420a;
+  border: solid 1px #d1420a;
   background-color: #ffffff;
   width: 80px;
 }
 
 .commentEdit:hover {
-  color: #c74009;
-  border: solid 1px #c74009;
+  color: #fa500c;
+  border: solid 1px #fa500c;
   background-color: #ffffff;
 }
 
 .commentDelete {
   margin-left: 10px;
+  color: #ffffff;
+  border: solid 1px #d1420a;
+  background-color: #d1420a;
+}
+
+.commentDelete:hover {
   color: #ffffff;
   border: solid 1px #fa500c;
   background-color: #fa500c;
