@@ -1,9 +1,18 @@
 .nav-link {
+  color: #808080;
+}
+
+a.nav-link:hover {
+  /*color: #808080;*/
+  color: #fa500c;
+}
+
+#navbarHome, #navbarPost, #navbarDashboard {
   color: #ffffff;
   padding-top: 10px;
 }
 
-a.nav-link:hover {
+#navbarHome:hover, #navbarPost:hover, #navbarDashboard:hover {
   color: #808080;
 }
 
@@ -16,5 +25,6 @@ a.nav-link:hover {
   border-color: #fa500c;
   background-color: #fa500c;
 }
+
 
 
