@@ -48,7 +48,7 @@ const LoginPage = () => {
             onChange={(e) => setUserName(e.target.value)}
           />
           <label id="userlabel" htmlFor={username}>
-            Username
+            Email address
           </label>
         </div>
 
