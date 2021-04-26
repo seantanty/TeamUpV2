@@ -37,12 +37,13 @@ function HomePage() {
   }, [page, reload, query, cat]);
 
   return (
-    <div className="container" id="container">
+    <div className="container" id="container" role="main">
       <div className="row">
         <div className="col-md-8" id="searchBarBox">
           <div className="input-group">
             <div className="input-group-btn search-panel">
               <select
+                aria-label="Category"
                 className="form-select form-control"
                 onChange={(evt) => {
                   setCat(evt.target.value);
@@ -76,6 +77,7 @@ function HomePage() {
             <span className="input-group-btn">
               <button
                 id="searchButton"
+                aria-label="search"
                 className="btn btn-success"
                 type="submit"
                 onClick={() => {
