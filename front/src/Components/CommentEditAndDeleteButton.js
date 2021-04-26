@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import CommentBox from "../Components/CommentBox.js";
-import "../styles/commentbutton.css"
+import "../styles/commentbutton.css";
 
 const CommentEditAndDeleteButton = (props) => {
   const { post, userid, username, comment } = props;
@@ -32,16 +32,14 @@ const CommentEditAndDeleteButton = (props) => {
       <div>
         <button
           type="button"
-          className="btn btn-warning"
-          id="commentEdit"
+          className="btn btn-warning commentEdit"
           onClick={(e) => clickComment()}
         >
           Edit
         </button>
         <button
           type="button"
-          className="btn btn-danger"
-          id="commentDelete"
+          className="btn btn-danger commentDelete"
           onClick={(e) => deleteComment(comment._id)}
         >
           Delete
