@@ -49,7 +49,7 @@ const EditAndCloseButton = (props) => {
             className="modal fade"
             id="closePostModal"
             tabIndex="-1"
-            aria-labelledby="exampleModalLabel"
+            aria-labelledby="closePostModal"
             aria-hidden="true"
           >
             <div className="modal-dialog">
