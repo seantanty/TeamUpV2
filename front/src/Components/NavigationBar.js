@@ -3,7 +3,6 @@ import { Link, useLocation } from "react-router-dom";
 
 import "../styles/navigationbar.css";
 import icon from "../styles/logo60.png";
-//import write from "../styles/write.png";
 
 const NavigationBar = () => {
   const location = useLocation();

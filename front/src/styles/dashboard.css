@@ -1,6 +1,5 @@
 .containter {
   margin-top: 20px;
-  position: relative;
   border: 1px solid #e8e8e8;
   width: 1000px;
   background-color: #e8e8e8;
@@ -16,16 +15,13 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /*flex-wrap: wrap;*/
 }
 
 .tab-pane {
-    border-left: 1px solid #e8e8e8;
-    border-right: 1px solid #e8e8e8;
-    border-bottom: 1px solid #e8e8e8;
-    border-radius: 0px 0px 4px 4px;
-    /*padding: 10px;*/
-
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .container-fluid {
@@ -45,7 +41,6 @@
   border-radius: 4px;
 }
 
-
 .card-header {
   display: flex;
   align-items: center;
@@ -57,4 +52,3 @@
   padding-right: 0.625rem;
   height: 3.5rem;
 }
-
