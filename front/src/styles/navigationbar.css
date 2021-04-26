@@ -4,7 +4,9 @@
 }
 
 a.nav-link:hover {
-  color: #ffffff;
+  /*color: black;*/
+  color: #7a2706;
+  color: #808080;
 }
 
 .navbar-toggler {
