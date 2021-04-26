@@ -1,6 +1,6 @@
 #editButton, #closeCancel {
-  color: #FA500C;
-  border: solid 1px #FA500C;
+  color: #d1420a;
+  border: solid 1px #d1420a;
   background-color: #ffffff;
 }
 
@@ -13,8 +13,8 @@
 #closeButton, #closePostButton {
   margin-left: 10px;
   color: #ffffff;
-  border: solid 1px #FA500C;
-  background-color: #FA500C;
+  border: solid 1px #d1420a;
+  background-color: #d1420a;
 }
 
 #closeButton:hover, #closePostButton:hover {

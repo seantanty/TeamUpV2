@@ -1,18 +1,10 @@
 .nav-link {
-  color: #808080;
+  color: #ffffff;
+  padding-top: 10px
 }
 
 a.nav-link:hover {
-  color: #000000;
-}
-
-#navbarHome, #navbarPost, #navbarDashboard {
   color: #ffffff;
-  padding-top: 10px;
-}
-
-#navbarHome:hover, #navbarPost:hover, #navbarDashboard:hover {
-  color: #808080;
 }
 
 .navbar-toggler {
@@ -21,7 +13,7 @@ a.nav-link:hover {
 }
 
 .nav-item {
-  border-color: #fa500c;
+  border-color: #d1420a;
   background-color: #d1420a;
 }
 

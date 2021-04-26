@@ -1,16 +1,16 @@
 .page-item {
   
-    color: #FA500C;
+    color: #d1420a;
   
 }
 
 .page-link {
-    background-color: #FA500C;
+    background-color: #d1420a;
     border-radius: 4px;
     &:hover {
         background-color: #C74009;
     }
     &:active {
-        background-color: #FA500C;
+        background-color: #d1420a;
     }
 }

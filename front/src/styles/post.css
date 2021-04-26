@@ -34,15 +34,15 @@
 
 #createPost:hover,
 #editPost:hover {
-  background-color: #fa500c;
-  border: solid 1px #fa500c;
+  background-color: #c74009;
+  border: solid 1px #c74009;
 }
 
 #cancel {
   margin-left: 20px;
   float: left;
   color: #fa500c;
-  border: solid 1px #fa500c;
+  border: solid 1px #d1420a;
 }
 
 #cancel:hover {
