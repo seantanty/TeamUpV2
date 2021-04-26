@@ -2,16 +2,21 @@
   border: 1px solid #e8e8e8;
   width: 800px;
 }
+.postContent {
+  border: solid 1px #fa500c;
+  padding: 5px;
+  min-height: 100px;
+}
 
 #comment {
   margin-left: 10px;
   color: #ffffff;
-  border: solid 1px #FA500C;
-  background-color: #FA500C;
+  border: solid 1px #d1420a;
+  background-color: #d1420a;
 }
 
 #comment:hover {
   color: #ffffff;
-  border: solid 1px #C74009;
-  background-color: #C74009;
+  border: solid 1px #fa500c;
+  background-color: #fa500c;
 }
