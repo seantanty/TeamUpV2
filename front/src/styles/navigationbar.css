@@ -4,12 +4,12 @@
 }
 
 a.nav-link:hover {
-  color: #000000;
+  color: #808080;
 }
 
 .navbar-toggler {
   background-color: #fa500c;
-  border: solid #7A2706;
+  border: solid #808080;
 }
 
 .nav-item {
