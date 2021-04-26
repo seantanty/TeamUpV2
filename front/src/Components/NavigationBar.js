@@ -29,7 +29,6 @@ const NavigationBar = () => {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <Link
-                id="navbarHome"
                 className={
                   "nav-link" + (location.pathname === "/" ? " active" : "")
                 }
@@ -41,7 +40,6 @@ const NavigationBar = () => {
             </li>
             <li className="nav-item">
               <Link
-                id="navbarPost"
                 className={
                   "nav-link" +
                   (location.pathname === "/createPost" ? " active" : "")
@@ -53,7 +51,6 @@ const NavigationBar = () => {
             </li>
             <li className="nav-item">
               <Link
-                id="navbarDashboard"
                 className={
                   "nav-link" +
                   (location.pathname === "/dashboard" ? " active" : "")

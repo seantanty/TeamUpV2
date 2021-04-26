@@ -68,7 +68,7 @@ const RegisterPage = () => {
   }
 
   return (
-    <div className="container">
+    <div className="container" role="main">
       <div className="card" id="card_register">
         <div className="form-floating my-3">
           <input
@@ -77,6 +77,7 @@ const RegisterPage = () => {
             name="username"
             placeholder=""
             id="username"
+            aria-label="username"
             onChange={(e) => setUserName(e.target.value)}
           />
           <label id="userlabel" htmlFor={username}>
@@ -91,6 +92,7 @@ const RegisterPage = () => {
             name="password"
             placeholder=""
             id="password"
+            aria-label="password"
             onChange={(e) => setPassword(e.target.value)}
           />
           <label htmlFor={password}>Password</label>

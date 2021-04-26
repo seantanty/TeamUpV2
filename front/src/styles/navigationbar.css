@@ -4,17 +4,15 @@
 }
 
 a.nav-link:hover {
-  color: #808080;
+  color: black;
 }
 
 .navbar-toggler {
-  background-color: #fa500c;
+  background-color: #d1420a;
   border: solid #808080;
 }
 
 .nav-item {
   border-color: #fa500c;
-  background-color: #fa500c;
+  background-color: #d1420a;
 }
-
-

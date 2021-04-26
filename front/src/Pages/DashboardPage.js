@@ -64,7 +64,7 @@ const DashboardPage = () => {
   }, []);
 
   return (
-    <div className="containter">
+    <div className="containter" role="main">
       <div className="countsContainer">
         <Count label={"posted"} count={postCount} />
         <Count label={"interested"} count={interestCount} />
@@ -72,36 +72,32 @@ const DashboardPage = () => {
       </div>
 
       <div className="container-fluid mt-100">
-        <Tabs
-          className="tab-pane"
-          activeKey={key}
-          onSelect={(k) => setKey(k)}
-          >
-          <Tab eventKey="posted" title="Posted" id="tab">
+        <Tabs className="tab-pane" activeKey={key} onSelect={(k) => setKey(k)}>
+          <Tab className="tabTitle" eventKey="posted" title="Posted">
             <div className="col-md-12">
               <div className="card mb-3" id="postsCard">
-                <DashboardCardHeader></DashboardCardHeader>  
+                <DashboardCardHeader></DashboardCardHeader>
                 <ListPostsUser posts={posted}></ListPostsUser>
               </div>
             </div>
           </Tab>
-          <Tab eventKey="interested" title="Interested" id="tab">
+          <Tab className="tabTitle" eventKey="interested" title="Interested">
             <div className="col-md-12">
               <div className="card mb-3">
-                <DashboardCardHeader></DashboardCardHeader>  
+                <DashboardCardHeader></DashboardCardHeader>
                 <ListPostsUser posts={interested}></ListPostsUser>
               </div>
             </div>
           </Tab>
-          <Tab eventKey="teamuped" title="Teamuped" id="tab">
+          <Tab className="tabTitle" eventKey="teamuped" title="Teamuped">
             <div className="col-md-12">
               <div className="card mb-3">
-                <DashboardCardHeader></DashboardCardHeader>  
+                <DashboardCardHeader></DashboardCardHeader>
                 <ListPostsUser posts={teamuped}></ListPostsUser>
               </div>
             </div>
           </Tab>
-        </Tabs> 
+        </Tabs>
       </div>
     </div>
   );

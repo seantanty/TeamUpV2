@@ -12,9 +12,9 @@
 #btn_signin,
 #btn_signup {
   width: 300px;
-  border: solid #fa500c;
+  border: solid #d1420a;
   border-radius: 4px;
-  background-color: #fa500c;
+  background-color: #d1420a;
 }
 
 #btn_signin:hover,

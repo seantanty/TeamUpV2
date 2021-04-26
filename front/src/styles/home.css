@@ -25,6 +25,9 @@
   background-color: #ffffff;
   border-radius: 4px;
 }
+.postsColTitle {
+  color: black;
+}
 
 .card-header {
   display: flex;
@@ -52,13 +55,13 @@
 }
 
 #searchButton {
-  border: solid 1px #FA500C;
-  background-color: #FA500C;
+  border: solid 1px #fa500c;
+  background-color: #fa500c;
 }
 
 #searchButton:hover {
-  border: solid 1px #C74009;
-  background-color: #C74009;
+  border: solid 1px #c74009;
+  background-color: #c74009;
 }
 
 .Pagination {

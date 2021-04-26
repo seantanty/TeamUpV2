@@ -36,15 +36,15 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container" role="main">
       <div className="card" id="card_login">
         <div className="form-floating my-3">
           <input
             type="text"
             className="form-control"
             name="username"
-            placeholder=""
             id="username"
+            aria-label="username"
             onChange={(e) => setUserName(e.target.value)}
           />
           <label id="userlabel" htmlFor={username}>
@@ -59,6 +59,7 @@ const LoginPage = () => {
             name="password"
             placeholder=""
             id="password"
+            aria-label="password"
             onChange={(e) => setPassword(e.target.value)}
           />
           <label htmlFor={password}>Password</label>

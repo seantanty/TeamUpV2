@@ -25,30 +25,34 @@
   margin-left: 60px;
 }
 
-#createPost, #editPost {
+#createPost,
+#editPost {
   float: left;
-  background-color: #FA500C;
-  border: solid 1px #FA500C;
+  background-color: #d1420a;
+  border: solid 1px #d1420a;
 }
 
-#createPost:hover, #editPost:hover {
-  background-color: #C74009;
-  border: solid 1px #C74009;
+#createPost:hover,
+#editPost:hover {
+  background-color: #fa500c;
+  border: solid 1px #fa500c;
 }
 
 #cancel {
   margin-left: 20px;
   float: left;
-  color: #FA500C;
-  border: solid 1px #FA500C;
+  color: #fa500c;
+  border: solid 1px #fa500c;
 }
 
 #cancel:hover {
-  color: #C74009;
-  border: solid 1px #C74009;
+  color: #c74009;
+  border: solid 1px #c74009;
 }
 
-#createPost, #cancel, #editPost {
+#createPost,
+#cancel,
+#editPost {
   width: 80px;
   margin-bottom: 20px;
 }

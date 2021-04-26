@@ -6,7 +6,7 @@ import "../styles/header.css";
 
 const Header = () => {
   return (
-    <div className="headerBody">
+    <div className="headerBody" role="contentinfo">
       <NavigationBar className="navbar"></NavigationBar>
       <SignInOut className="signinout"></SignInOut>
     </div>
