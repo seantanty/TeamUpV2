@@ -7,7 +7,7 @@
 # TeamUp App (app link)
 Author: [Yongliang (Sean) Tan](https://seantanty.github.io/CS-5610-project1/index.html) & [Xinyi Ge](https://xinyijackiege.github.io/)\
 Class Link: [Web Development](https://johnguerra.co/classes/webDevelopment_spring_2021/)
-Deployed to Heroku: [Link](https://enigmatic-cliffs-18531.herokuapp.com/)
+Deployed to Heroku: [Link](https://teamup-up.herokuapp.com/)
 ***
 A teamup forum app serving students to conveniently  form teams to study, play and enjoy lives together on and off campus.
 <a href="https://www.youtube.com/watch?v=b1qkEst-7Pw&ab_channel=YongliangTan">Video demo</a>
