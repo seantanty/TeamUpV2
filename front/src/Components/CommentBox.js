@@ -43,7 +43,10 @@ const CommentBox = (props) => {
             <h6>Edit comment as {username}</h6>
             <div className="d-flex flex-row align-items-start">
               <textarea
-                className="col-md-6 form-control ml-1 textarea"
+                rows="2"
+                className="form-control"
+                name="description"
+                aria-label="commentInput"
                 onChange={(e) => setComment(e.target.value)}
                 style={{ resize: "none" }}
               ></textarea>
@@ -68,7 +71,10 @@ const CommentBox = (props) => {
             <h6>Post comment as {username}</h6>
             <div className="d-flex flex-row align-items-start">
               <textarea
-                className="col-md-6 form-control ml-1 textarea"
+                rows="2"
+                className="form-control"
+                name="description"
+                aria-label="commentInput"
                 onChange={(e) => setComment(e.target.value)}
                 style={{ resize: "none" }}
               ></textarea>

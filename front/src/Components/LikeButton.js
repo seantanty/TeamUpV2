@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const LikeButton = (props) => {
-  const { post, userid, username } = props;
+  const { post, userid } = props;
   const [like, setLike] = useState(false);
 
   function clickLike() {

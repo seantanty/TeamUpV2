@@ -57,7 +57,7 @@ const EditPostPage = () => {
   };
 
   return (
-    <div className="container" id="postContainer">
+    <div className="container" id="postContainer" role="main">
       <div className="row">
         <h3 className="center-block text-center postFormTitle">Edit Post</h3>
         <div className="col-md-8 col-md-offset-2">
@@ -98,6 +98,7 @@ const EditPostPage = () => {
                 className="form-control"
                 name="description"
                 id="description"
+                aria-label="description"
                 value={content}
                 onChange={(e) => setContent(e.target.value)}
               ></textarea>
