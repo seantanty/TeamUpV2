@@ -82,11 +82,7 @@ function IndividualPost(props) {
                   style={{ marginLeft: "0px" }}
                 >
                   <div className="interactions">
-                    <LikeButton
-                      userid={curUserId}
-                      username={curUsername}
-                      post={post}
-                    ></LikeButton>
+                    <LikeButton userid={curUserId} post={post}></LikeButton>
                     <button
                       type="button"
                       className="btn btn-primary"
