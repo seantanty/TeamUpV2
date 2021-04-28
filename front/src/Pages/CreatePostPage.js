@@ -59,7 +59,7 @@ const CreatePostPage = () => {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="category">Category *</label>
+              <label htmlFor="category">Category *</label>   // AXE shows that this selector doesn't have sufficient color contrast.
               <select
                 className="form-select form-control"
                 id="category"
