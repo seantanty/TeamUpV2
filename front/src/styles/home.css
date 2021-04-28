@@ -15,7 +15,7 @@
     0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05),
     0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
 
-  border-width: 1px solid #e8e8e8;
+  border-width: 1px solid #e8e8e8;    // On the home page, the border widths of different posts are not the same. It makes the whole page not neat.
   border-radius: 4px;
   transition: all 0.2s;
   background-color: #ffffff;
