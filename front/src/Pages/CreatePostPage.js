@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/post.css";
-
+This great. Code is really easy to read and understand. One suggestions would be to add comments to your code. This way each function has a description 
+in terms of what it is that it is doing. 
 const CreatePostPage = () => {
   const [title, setTitle] = useState("");
   const [cat, setCat] = useState("");
