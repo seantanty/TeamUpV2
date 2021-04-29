@@ -1,3 +1,5 @@
+All css files are organized well in css folder. One suggested would be to have each css file next to their respective files of which the css is being applied to. 
+This way it will be more intuitive which file the css is being applied to. Great job.  
 #card_login,
 #card_register {
   display: flex;
